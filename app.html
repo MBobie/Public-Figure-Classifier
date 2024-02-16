@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Figure Classifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dropzone.min.css">
+    <link rel="stylesheet" href="./app.css">
+    
+    <style>
+        .navbar-brand {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light justify-content-center">
+        <a class="navbar-brand" href="#">Public Figure Classifier</a>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <!-- Messi Card -->
+            <div class="col card-wrapper" data-person="lionel_messi">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img src="./images/Lionel Messi.png" alt="Lionel Messi" class="w-100 h-100">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h4 class="text-uppercase card-title">Lionel Messi</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Madueke Card -->
+            <div class="col card-wrapper" data-person="Noni_Madueke">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img src="./images/Noni.webp" alt="Noni Madueke" class="w-100 h-100">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h4 class="text-uppercase card-title">Noni Madueke</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kennedy Agyapong Card -->
+            <div class="col card-wrapper" data-person="Kennedy_Agyapong">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img src="./images/kennedy Agyapong.jpg" alt="Kennedy Agyapong" class="w-100 h-100">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h4 class="text-uppercase card-title">Kennedy Agyapong</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Elon Musk Card -->
+            <div class="col card-wrapper" data-person="Elon_Musk">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img src="./images/Elon Musk.webp" alt="Elon Musk" class="w-100 h-100">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h4 class="text-uppercase card-title">Elon Musk</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trump Card -->
+            <div class="col card-wrapper" data-person="Donald_Trump">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img src="./images/Donald Trump.webp" alt="Donald Trump" class="w-100 h-100">
+                    </div>
+                    <div class="card-body text-center mt-4">
+                        <h4 class="text-uppercase card-title">Donald Trump</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <!-- Serwaa Card -->
+                    <div class="col card-wrapper" data-person="Serwaa_Amihere">
+                        <div class="card border-0">
+                            <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                                <img src="./images/Serwaa Amihere.webp" alt="Serwaa Amihere" class="w-100 h-100">
+                            </div>
+                            <div class="card-body text-center mt-4">
+                                <h4 class="text-uppercase card-title">Serwaa Amihere</h4>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- LJ Card -->
+                    <div class="col card-wrapper" data-person="Lyrical_Joe">
+                        <div class="card border-0">
+                            <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                                <img src="./images/Lyrical Joe.png" alt="Lyrical Joe" class="w-100 h-100">
+                            </div>
+                            <div class="card-body text-center mt-4">
+                                <h4 class="text-uppercase card-title">Lyrical Joe</h4>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Rollins Card -->
+                    <div class="col card-wrapper" data-person="Seth_Rollins">
+                        <div class="card border-0">
+                            <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                                <img src="./images/seth.webp" alt="Seth Rollins" class="w-100 h-100">
+                            </div>
+                            <div class="card-body text-center mt-4">
+                                <h4 class="text-uppercase card-title">Seth Rollins</h4>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- The Rock Card -->
+                    <div class="col card-wrapper" data-person="Dwayne_Johnson">
+                        <div class="card border-0">
+                            <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                                <img src="./images/Dwayne Johnson.jpg" alt="Dwayne Johnson" class="w-100 h-100">
+                            </div>
+                            <div class="card-body text-center mt-4">
+                                <h4 class="text-uppercase card-title">Dwayne Johnson</h4>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Sark Card -->
+                    <div class="col card-wrapper" data-person="Sarkodie">
+                        <div class="card border-0">
+                            <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                                <img src="./images/Sarkodie.jpg" alt="Sarkodie" class="w-100 h-100">
+                            </div>
+                            <div class="card-body text-center mt-4">
+                                <h4 class="text-uppercase card-title">Sarkodie</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- CR7 Card -->
+                    <div class="col card-wrapper" data-person="Cristiano_Ronaldo">
+                        <div class="card border-0">
+                            <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                                <img src="./images/cr7.jpeg" alt="Sarkodie" class="w-100 h-100">
+                            </div>
+                            <div class="card-body text-center mt-4">
+                                <h4 class="text-uppercase card-title">Ronaldo</h4>
+                            </div>
+                        </div>
+                    </div>
+        
+        <!-- Dropzone and Classify Button -->
+    <!-- Dropzone and Classify Button -->
+    <div class="row mt-4">
+        <div class="col-sm-12 text-center">
+            <form action="/file-upload" class="dropzone" id="dropzoneForm">
+                <div class="dz-message needsclick">
+                    <img src="./images/upload.png" alt="Upload icon" width="50" height="50"><br>
+                    <span class="note needsclick">Drop files here or click to upload.</span>
+                </div>
+            </form>
+            <div class="text-center mt-3">
+                <button id="submitBtn" type="button" class="btn btn-success">Classify</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Error Message -->
+        <div class="row mt-3">
+            <div class="col-sm-8 mx-auto error" id="error" style="display:none;">
+                <p>Can't classify image. The classifier was not able to detect a face and two eyes properly.</p>
+            </div>
+        </div>
+
+        <!-- Classification Result Table -->
+        <div class="row mt-3">
+            <div class="col-sm-12" id="divClassTable">
+                <table id="classTable" class="table">
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+                            <th>Probability Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lionel Messi</td>
+                            <td id="score_lionel_messi"></td>
+                        </tr>
+                        <tr>
+                            <td>Maria Sharapova</td>
+                            <td id="score_maria_sharapova"></td>
+                        </tr>
+                        <tr>
+                            <td>Roger Federer</td>
+                            <td id="score_roger_federer"></td>
+                        </tr>
+                        <tr>
+                            <td>Serena Williams</td>
+                            <td id="score_serena_williams"></td>
+                        </tr>
+                        <tr>
+                            <td>Virat Kohli</td>
+                            <td id="score_virat_kohli"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="./dropzone.min.js"></script>
+    <script src="./app.js" defer></script>
+</body>
+</html>

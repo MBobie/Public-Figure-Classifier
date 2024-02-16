@@ -1,0 +1,54 @@
+.card-wrapper {
+  margin: 0; /* Adjust or remove the margin as necessary */
+}
+
+.custom-circle-image {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  overflow: hidden;
+  background: none; /* Add this if you have a background set somewhere that is adding white space */
+  padding: 0; /* Add this to remove any default padding */
+  margin: 0; /* Add this to remove any default margin */
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin: 0; /* Ensure no margin on the image */
+  padding: 0; /* Ensure no padding on the image */
+  border: none; /* Ensure no border on the image */
+}
+
+/* Add this to remove any default card spacing that might be applied */
+.card {
+  background: none;
+  border: 0;
+  margin: 0; /* Remove margin if it's set by default */
+  padding: 0; /* Remove padding if it's set by default */
+}
+
+.card .card-body {
+  padding: 0; /* Remove padding inside the card body */
+  margin: 0; /* Remove margin inside the card body */
+  color: white; /* Set the text color to white */
+}
+
+/* Add this to ensure the card titles do not have extra spacing */
+.card-title {
+  margin: 0;
+  padding: 0;
+  color: white !important; /* Force white color */
+}
+
+
+body {
+background-image: url('4.jpeg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+}
+
